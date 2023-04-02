@@ -1,0 +1,24 @@
+{
+  "name": "vite-grpc-web-reactive",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "grpc-web-rx": "^0.6.7",
+    "protoc-gen-grpc-web": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  }
+}
